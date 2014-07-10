@@ -24,6 +24,7 @@
 	.header .mainmenu li a:hover i.our-celebs{background-position:-81px -106px;width:45px;height:47px;}
 	.header .mainmenu li a:hover i.our-cars{background-position:-130px -112px;}
 	.SYNCBanner .SYNCRight{right:93px}
+    .black-transparent-hover {margin: 0 auto;}
 }
 
 @media only screen and (min-width: 300px) and (max-width: 699px){
