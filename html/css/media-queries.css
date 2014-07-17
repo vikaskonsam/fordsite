@@ -190,7 +190,8 @@
 }
 
 @media only screen and (min-width: 300px) and (max-width: 450px){
-    
+    .participateBlock .page-title-section h2 {font-size: 32px;}
+    .page-main-body p {line-height: 30px;}
 	.footer-wrapper .ford-go-further{left:37%}
 	.footer-wrapper .footer-links{padding-top:48px;}
 }
@@ -275,8 +276,9 @@ margin: 0 auto;margin-bottom: 40px;}
 }
 
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 768px){
 body {border:0px solid red;}
+    
 .my-profile-body .upload-block, .my-profile-body .upload-block.user-image {left: 0px;}
     .entries-container .entries-ul .entries-li {padding:20px 0px;}
     .entries-container .entries-ul .entries-li .column,.entries-container .entries-ul .entries-li .content.column {display: block;width:100%;}
@@ -306,4 +308,48 @@ margin: 0 auto;}
     .Celebrity-Comments-Container {padding: 15px 20px 85px 20px;}
     .big-btn-submit {height: 80px;}
     
+    /* sync applin */
+    .sync-applink .participateBlock .page-title-section,.sync-applink .participateBlock .sync-applink-bg {min-height: 600px;
+height: 100%;}
+    .sync-applink .participateBlock .sync-applink-bg p {padding:0px 2em;}
+    .page-main-body {padding:5%;}
+    .sayyoursong .div60 img {
+margin: -4em 0px 0px 3em;
+}
+    .hands-free img {margin-top:0px;}
+    .feature-section .div40 {padding: 0px 0em; }
+    .feature-section img {
+width: 100%;
+    }
+    .sync-applink .participateBlock .sync-applink-bg h2{padding: 1em;}
+    .sync-applink-bg .page-title img {width:100%;}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .sync-applink .participateBlock .page-title-section, .sync-applink .participateBlock .sync-applink-bg {
+min-height: 500px;
+height: 100%;
+}
+    .sync-applink .participateBlock .sync-applink-bg p {font-size: 16px;}
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 640px){
+  
+   .feature-section {
+padding: 2em 0em;
+} 
+.feature-section .div60,.feature-section .div40  {
+width:100%;
+padding: 0px 1em;
+}  
+    .feature-section img {
+max-width: 100%;width: auto;
+}
+
+.feature-section .div40 img {margin-bottom: 2em;}
+.feature-section.hands-free,.feature-section.sayyoursong {display: none;}
+.feature-section.mobile-view {display: block;}  
+.feature-section.sayyoursong img {width: auto;
+max-width: 100%;}
 }
